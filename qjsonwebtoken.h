@@ -237,7 +237,7 @@ public:
 	\param strAlgorithm JWT *algorithm* as a QString.
 	\return true if the algorithm was set, false if the algorithm was not set.
 
-	This method checks for a valid supported algorithm. Valid values are:
+	This method checks for a valid supported algorithm. accepted values are:
 
 	"HS256", "HS384" and "HS512".
 
